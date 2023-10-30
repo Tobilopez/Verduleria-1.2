@@ -1,0 +1,71 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+  }
+  
+  li{
+    display: inline;
+    margin-right: 20px; 
+  }
+  
+  .ai{
+    text-decoration: none;
+    color: hsla(0,0%,100%);
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    border-left: 1px solid hsla(0,0%,100%);
+    padding-left: 5px;
+  }
+  
+  nav {
+    background-color: #83b45f; 
+    padding: 10px 0; 
+  }
+  
+  .right {
+    float: right; 
+    margin-right: 20px; 
+  }
+
+
+.header{
+  display: flex; 
+  margin: 10px 5px 5px 5px;
+  align-items: center;
+  height: 50px;
+  /* background-color: beige; */
+}
+
+.icon {
+  position: absolute;
+  right: 0.8rem;
+  bottom: 5px;
+  display: block;
+  font-size: 30px;
+  color: #83b45f;
+  opacity: 0.7;
+}
+
+.logo_verdu{
+  width: 100px;
+  height: 100px;
+  margin: 5px 20rem 10px 15px;
+  max-width: 90%;
+  max-height: 50px;
+
+}
+
+.spacer{
+  flex: 1 1 auto;
+}
+
+a{
+  margin: 0 5px 0 5px;
+}
+
+.navbar{
+  background-color: white;
+}

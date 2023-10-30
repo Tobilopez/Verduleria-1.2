@@ -1,0 +1,65 @@
+.card{
+    min-width: 100px;
+    max-width: 150px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 1px solid rgba(0,0,0,.3);
+    border-radius: 4px;
+    padding: 10px 20px 15px 20px;
+    box-shadow: 2px 2px 2px 0.2px rgb(219, 217, 217);
+
+}
+
+hr {
+    opacity: 0.2;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    margin: 0;
+    object-fit: contain;
+}
+
+.carrito {
+    display: flex;
+    width: 130px;
+    height: 30px;
+    align-items: center;
+    background-color: #71ac2d;
+    border-color: #60a115;
+    color: #fff;
+    font-size: 13px;
+    margin: 0 auto;
+    border-radius: 4px;
+    transition: 0.34s;
+    
+}
+
+.carrito i {
+    margin: auto;
+}
+
+.carrito:hover {
+    width:140px;
+    height: 40px;
+    font-size:14px; 
+}
+
+.title{
+    text-align:center;
+    font-family: 'Rubik', sans-serif;
+}
+.peso {
+    text-align:center;
+}
+
+.sub-title{
+    text-align:center;
+    font-size: 13px;
+    padding-bottom: 9px;
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+}
+
+

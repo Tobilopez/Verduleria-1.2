@@ -1,0 +1,20 @@
+<div>
+  <h3 class="title"><i class="fa fa-shopping-cart"></i>Carrito</h3>
+</div>
+<hr>
+<div>
+  <article *ngFor="let mercaderia of carrito; let i = index">
+    <span><img class="mini-image" [src]="mercaderia.image" alt=""></span>
+    <span>{{ mercaderia.titulo }}</span>
+    <span>{{ mercaderia.subtitulo }}</span>
+    <span>{{ mercaderia.peso }}</span>
+    <span>{{ mercaderia.precioSubtotal }}</span>
+    <i (click)="eliminarMercaderia(i)" class="fa fa-trash" style="color: #454545;"></i>
+  </article>
+</div>
+
+<p>Precio total: ${{ precioTotal }}</p>
+
+
+
+  
